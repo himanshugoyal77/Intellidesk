@@ -1,0 +1,31 @@
+{
+  "name": "pdf-rag-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^2.7.0",
+    "@langchain/cohere": "^1.0.1",
+    "@langchain/community": "^0.0.44",
+    "@langchain/core": "^1.1.15",
+    "@langchain/pinecone": "^0.0.9",
+    "@pinecone-database/pinecone": "^2.1.0",
+    "axios": "^1.13.2",
+    "dotenv": "^16.3.1",
+    "eureka-js-client": "^4.5.0",
+    "express": "^4.18.2",
+    "kafkajs": "^2.2.4",
+    "langchain": "^0.1.10",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.11",
+    "pdf-parse": "^1.1.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
